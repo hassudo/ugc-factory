@@ -57,7 +57,7 @@ export async function fetchPageText(url: string): Promise<string | null> {
     const res = await fetch(u, {
       signal: ctrl.signal,
       headers: {
-        "User-Agent": "Mozilla/5.0 (compatible; UGC-Factory/1.0; +https://github.com/hassan30k/8x-assignment)",
+        "User-Agent": "Mozilla/5.0 (compatible; UGC-Factory/1.0; +https://github.com/hassudo/ugc-factory)",
         Accept: "text/html,application/xhtml+xml",
       },
       redirect: "follow",

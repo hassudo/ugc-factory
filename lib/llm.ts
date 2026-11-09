@@ -44,7 +44,7 @@ export async function chatRaw(cfg: LLMConfig, messages: { role: string; content:
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${cfg.apiKey}`,
-          ...(cfg.baseUrl.includes("openrouter") ? { "HTTP-Referer": "https://github.com/hassan30k/8x-assignment", "X-Title": "UGC Factory" } : {}),
+          ...(cfg.baseUrl.includes("openrouter") ? { "HTTP-Referer": "https://github.com/hassudo/ugc-factory", "X-Title": "UGC Factory" } : {}),
         },
         body: JSON.stringify({
           model: cfg.model,

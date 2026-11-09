@@ -14,8 +14,12 @@ npm-debug.log*
 .env.*
 !.env.example
 
+# agent session transcripts and local capture notes stay local
+.agent-logs/*
+!.agent-logs/.gitkeep
+CAPTURE-TEST.md
+.agent-capture-state.json
+
 # OS / editor
 .DS_Store
 Thumbs.db
-
-# local capture state lives outside the repo (see CAPTURE-TEST.md)

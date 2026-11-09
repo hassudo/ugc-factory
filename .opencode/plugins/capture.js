@@ -4,7 +4,7 @@ const os = await import("node:os")
 
 const DEFAULT_MODEL = "big-pickle"
 const AUTHOR = "hassan30k"
-const PROJECT = "8x-assignment"
+const PROJECT = "ugc-factory"
 
 const statePath = path.join(os.homedir(), ".cache", "opencode", "agent-capture-state.json")
 
